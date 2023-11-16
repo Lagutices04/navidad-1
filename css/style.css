@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(163, 64, 255);
+}
+  #reloj,.dia, .hora,.minuto,.segundo {
+  height: 100px;
+  background-color: rgb(255,135,255 );
+  margin: 10px;
+  justify-content: space-around;
+  border-radius: 2rem;
+  box-shadow: 0px,0px,8px,5px;
+  border: none;
+}
+.cuentaRegresiva  #reloj span{
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 550;
+    color: rgb(40, 168, 126);
+}
